@@ -1,0 +1,32 @@
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    
+    font-family: var(--font-body);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: min(1400px, 92%);
+    margin-inline: auto; 
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+}
+
+ul {
+    list-style: none;
+}
