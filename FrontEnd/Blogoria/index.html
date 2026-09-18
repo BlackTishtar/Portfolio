@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,37 @@
     <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
+
 <body>
-    <ul>
-        <li>asldkjf</li>
-        <li>asldkjf</li>
-        <li>asldkjf</li>
-        <li>asldkjf</li>
-    </ul>
+    <header>
+        <div class="container header__inner">
+            <div class="header__logo">
+                <a href="#">Blogoria</a>
+            </div>
+
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item is-active"><a href="#">Home</a></li>
+                    <li class="header__navbar-item"><a href="#">Categories</a></li>
+                    <li class="header__navbar-item"><a href="#">About</a></li>
+                    <li class="header__navbar-item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__action">
+                <div class="header__action-btn">
+                    <button>Subscribe</button>
+                </div>
+                <div class="header__action-input">
+                    <input type="search" name="header_search" id="header_search" placeholder="Search articles...">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                        <circle cx="11" cy="11" r="7" />
+                        <path d="m20 20-3.5-3.5" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
