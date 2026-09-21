@@ -457,7 +457,7 @@ header {
     border-radius: 4px;
 
     font-size: var(--font-size-sm);
-    color: var(--color-text-secondary);
+    color: var(--color-text-muted);
 
     outline: none;
 
@@ -482,4 +482,141 @@ header {
 
     font-size: var(--font-size-md);
     color: #fff;
+}
+
+/* Footer section */
+footer {
+    background-color: #222;
+
+    padding: 20px;
+
+    color: #fff;
+}
+
+.footer__inner {
+    max-width: 1200px;
+    height: 200px;
+
+    margin-inline: auto;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.footer__col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 13px;
+
+    height: 100%;
+}
+
+.footer__logo-title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+}
+
+.footer__desc {
+    max-width: 240px;
+
+    font-size: var(--font-size-sm);
+
+    color: #c9c9c9;
+}
+
+.footer__social {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.footer__col-title {
+    color: #fff;
+}
+
+.footer__list {
+    padding: 0;
+}
+
+.footer__item {
+    font-size: var(--font-size-sm);
+    font-weight: 400;
+    color: #c9c9c9;
+    padding-block: 3px;
+}
+
+.footer__action {
+    display: flex;
+
+    max-width: 300px;
+
+    background-color: #242424;
+
+    border: 1px solid #333;
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+.footer__action input {
+    background: transparent;
+    border: none;
+
+    height: 40px;
+
+    padding-inline-start: 10px;
+
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+
+    outline: none;
+}
+
+.footer__action button {
+    width: 40px;
+
+    place-items: center;
+
+    color: #e8e8e8;
+    background-color: #333;
+
+    
+}
+
+.footer__bottom {
+    max-width: 1200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-inline: auto;
+
+    padding-block: 15px;
+}
+
+.footer__copy {
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+
+    color: #e8e8e8;
+}
+
+.footer__legal {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 32px;
+
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+
+    color: #c8c8c8;
 }
