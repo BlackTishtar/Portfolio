@@ -339,7 +339,7 @@ header {
 
     gap: 10px;
 
-    padding-inline:20px;
+    padding-inline: 20px;
     padding-block: 14px;
 }
 
@@ -352,7 +352,7 @@ header {
 
 .post__title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
     line-height: 1.2;
 }
 
@@ -369,14 +369,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
     width: 100%;
 }
 
 .post__account-profile {
     display: flex;
     align-items: center;
-    
+
     gap: 8px;
 }
 
@@ -387,8 +387,7 @@ header {
     border-radius: 50%;
 }
 
-.post__account-name
- {
+.post__account-name {
     font-size: var(--font-size-xs);
     font-weight: 600;
 }
@@ -401,6 +400,86 @@ header {
 
 .post__read {
     font-size: var(--font-size-xs);
-    
+
     color: var(--color-text-secondary);
+}
+
+/* Subscribe section */
+.newsletter {
+    padding: 20px;
+
+    max-width: 1200px;
+
+    margin-inline: auto;
+}
+
+.newsletter__inner {
+    background: #f6f2ee;
+    border-radius: 12px;
+
+    width: 100%;
+
+    padding: 32px 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter__illust {
+    width: 120px;
+}
+
+.newsletter__title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.newsletter__desc {
+    font-size: var(--font-size-sm);
+
+    max-width: 320px;
+}
+
+.newsletter__action {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.newsletter__emailbox {
+    width: 200px;
+    height: 36px;
+
+    padding-inline-start: 12px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+
+    outline: none;
+
+    transition: border-color .2s ease, box-shadow .2s ease;
+}
+
+.newsletter__emailbox::placeholder {
+    color: #999;
+}
+
+.newsletter__emailbox:focus {
+    border-color: #2b2b2b;
+    box-shadow: 0 0 0 3px rgba(43, 43, 43, .08);
+}
+
+.newsletter__button {
+    height: 38px;
+    padding-inline: 18px;
+
+    background-color: #1f1f1f;
+    border-radius: 4px;
+
+    font-size: var(--font-size-md);
+    color: #fff;
 }
